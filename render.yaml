@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: your-app-name
+    buildCommand: yarn build
+    staticPublishPath: build
+    routes:
+      - path: /
+        rewrite: /index.html
+      - path: "/*"
+        rewrite: /index.html
