@@ -1,0 +1,134 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.table-container {
+  text-align: center;
+  width: 90vw;
+}
+.table {
+  border: 1px solid gray;
+}
+.display {
+  display: flex;
+  justify-content: space-around;
+}
+.display-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.display-between {
+  display: flex;
+  justify-content: space-around;
+}
+.display-center {
+  display: flex;
+  justify-content: center;
+}
+
+.google-signin-button {
+  display: inline-flex;
+  align-items: center;
+  background-color: #fff;
+  color: #737373;
+  border: 1px solid #737373;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.google-signin-button img {
+  margin-right: 8px;
+  width: 18px;
+  height: 18px;
+}
+
+.test-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.assessment-container {
+  background-color: #c0ddd1;
+  border-radius: 20px;
+  margin: 40px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  width: 50vw;
+  flex-wrap: wrap;
+}
+.assessment-button {
+  align-self: center;
+  margin: 20px;
+}
+.send-assessment-container {
+  background-color: #629681;
+  min-height: 100vh;
+}
+
+.user-input {
+  background: #fcf5fd;
+  border-radius: 2px;
+  border: none;
+  margin: 5px;
+  padding-bottom: 8px;
+}
+
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.not-found-img {
+  height: 300px;
+  width: 300px;
+}
+
+.home-page-btn {
+  font-family: "Roboto";
+  font-weight: 600;
+  font-size: 10px;
+  padding: 8px 16px;
+  color: #ffffff;
+  background-color: #3b82f6;
+  border: none;
+  border-radius: 4px;
+  margin-left: 14px;
+  cursor: pointer;
+  outline: none;
+}
+
+.no-found-heading {
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 30px;
+  color: #989898;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.send-assessment-container {
+  background-color: #EDFEFF;
+  min-height: 100vh;
+}
